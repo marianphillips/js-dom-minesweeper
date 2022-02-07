@@ -10,9 +10,8 @@ In this exercise we're building a simplified version of the popular Minesweeper 
  - Cleared spaces should be green, unchecked spaces grey, and spaces with a hit mine red.
 
 ## Challenge
-Allow the user to pick a difficulty at the start of the game
-For example, they can choose between "easy", "normal" and "hard"
-Depending on the difficulty, add more or fewer mines to the board
+- Allow the user to pick a difficulty at the start of the game. For example, they can choose between "easy", "normal" and "hard". Depending on the difficulty, add more or fewer mines to the board
+- Use either `setInverval` or `setTimeout` to render the final spaces 1 at a time, with a delay of 500ms between each cell being shown.
 
 ## Tips
 - Think about how can you repeatedly ask users for input until a condition is met?
