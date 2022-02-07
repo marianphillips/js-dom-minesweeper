@@ -13,6 +13,9 @@ In this exercise we're building a simplified version of the popular Minesweeper 
 - Allow the user to pick a difficulty at the start of the game. For example, they can choose between "easy", "normal" and "hard". Depending on the difficulty, add more or fewer mines to the board
 - Use either `setInverval` or `setTimeout` to render the final spaces 1 at a time, with a delay of 500ms between each cell being shown.
 
+## Challenge 2
+- Rather than using 'prompt', render the board state and allow the user click a cell to check if it is a mine.
+
 ## Tips
 - Think about how can you repeatedly ask users for input until a condition is met?
 
