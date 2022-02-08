@@ -9,15 +9,16 @@ In this exercise we're building a simplified version of the popular Minesweeper 
 - When the game ends, let them know the outcome by rendering the final state of the board using the DOM. 
  - Cleared spaces should be green, unchecked spaces grey, and spaces with a hit mine red.
 
-## Challenge
-- Allow the user to pick a difficulty at the start of the game. For example, they can choose between "easy", "normal" and "hard". Depending on the difficulty, add more or fewer mines to the board
-- Use either `setInverval` or `setTimeout` to render the final spaces 1 at a time, with a delay of 500ms between each cell being shown.
-
-## Challenge 2
-- Rather than using 'prompt', render the board state and allow the user click a cell to check if it is a mine.
-
 ## Tips
 - Think about how can you repeatedly ask users for input until a condition is met?
 
-## Challenge 2
-If you have time, a good idea is to evaluate your options. For example, try to think about different ways you could represent a board, and explore whether they make it easier to manage it all.
+## Extension 1
+- Try to think about different ways you could represent a board, and explore whether they make it easier to manage it all.
+
+## Extension 2
+- Allow the user to pick a difficulty at the start of the game. For example, they can choose between "easy", "normal" and "hard". Depending on the difficulty, add more or fewer mines to the board
+- Use either `setInverval` or `setTimeout` to render the final spaces 1 at a time, with a delay of 500ms between each cell being shown.
+
+## Extension 3
+- Rather than using 'prompt', render the board state and allow the user click a cell to check if it is a mine.
+
