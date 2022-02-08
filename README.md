@@ -6,7 +6,7 @@ In this exercise we're building a simplified version of the popular Minesweeper 
 - Add a "mine" to one of these spaces
 - Ask the user to enter an index (1-10) for the board using `prompt`
 - They will keep entering indices until they either hit a mine and lose, or clear all the empty spaces and win
-- When the game ends, let them know the outcome by rendering the final state of the board using the DOM object. 
+- When the game ends, let them know the outcome by rendering the final state of the board using the DOM. 
  - Cleared spaces should be green, unchecked spaces grey, and spaces with a hit mine red.
 
 ## Challenge
